@@ -1,0 +1,88 @@
+/* ClassCard.css */
+.classCard {
+    width: 800px;
+    align-self: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.classCard h3 {
+    margin: 0;
+    color: #333;
+}
+
+.classCard .header {
+    margin-bottom: 15px;
+}
+
+.classCard .divider {
+    border-bottom: 2px solid #ddd;
+    margin: 20px 0;
+}
+
+.classCard .details-container .separator {
+    width: 1px;
+    border-left: 2px solid #ddd;
+    margin: 0 16px;
+    height: 100%;
+    min-height: 150px;
+}
+
+.classCard .details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.classCard .details-container .class-details,
+.classCard .details-container .tutor-details {
+    width: 48%;
+}
+
+.classCard p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.classCard .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.classCard .delete-button:hover {
+    background-color: #c82333;
+}
+
+.classCard .book-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745; /* Green color for booking */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.classCard .book-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.classCard {
+    position: relative; /* Ensure the card is the containing block for the absolute button */
+}

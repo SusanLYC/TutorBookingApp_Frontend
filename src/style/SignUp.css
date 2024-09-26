@@ -1,0 +1,42 @@
+.sign-up {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-up h1 {
+    text-align: center;
+    color: #ff6347; /* Use a vibrant color */
+  }
+  
+  .sign-up form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sign-up label {
+    margin-bottom: 15px;
+  }
+  
+  .sign-up input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sign-up button {
+    background-color: #61dafb; /* Bright button color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,68 @@
+/* src/components/GetStarted.css */
+.get-started {
+    margin: auto;
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-started h1 {
+    text-align: center;
+    color: #ff6347; /* Use a vibrant color */
+  }
+  
+  .get-started p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .get-started ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .get-started li {
+    padding: 10px 0;
+  }
+  
+  .get-started .cta-button {
+    display: block;
+    background-color: #61dafb; /* Bright button color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-form button {
+  background-color: #61dafb; /* Bright button color */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  

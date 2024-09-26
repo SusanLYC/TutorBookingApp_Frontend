@@ -1,0 +1,126 @@
+.sign-in {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-in h1 {
+    text-align: center;
+    color: #ff6347; /* Use a vibrant color */
+  }
+  
+  .sign-in form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sign-in label {
+    margin-bottom: 15px;
+  }
+  
+  .sign-in input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sign-in button {
+    background-color: #61dafb; /* Bright button color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+/* Create Course Form Section */
+.create-course {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-course h3 {
+  margin-bottom: 20px;
+}
+
+.create-course form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-course label {
+  margin-bottom: 15px;
+}
+
+.create-course input,
+.create-course textarea,
+.create-course select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-course button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-course button:hover {
+  background-color: #0056b3;
+}
+
+.sign-in .user-sessions .classCardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.classCard {
+  max-width: 550px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.classCard h3 {
+  margin-top: 0;
+}
+
+.classCard button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 0.8rem; /* Smaller text size for the button */
+  padding: 5px 10px; /* Adjust padding for smaller button */
+}
+
+
+.classCard button:hover {
+  background-color: #0056b3;
+}

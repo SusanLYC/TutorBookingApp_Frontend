@@ -1,0 +1,42 @@
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.landing-header {
+    background-color: #ff6347; /* Vibrant color for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .landing-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .landing-header p {
+    font-size: 1.2em;
+  }
+  
+  .main-content {
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 186px);
+    min-height: -moz-calc(100% - 186px);
+    min-height: calc(100% - 186px);
+  }
+
+  .personalized-content {
+    margin-top: 10px;
+  }
+
+  .landing-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top:  auto; /* Push footer to the bottom */
+  }
+  
